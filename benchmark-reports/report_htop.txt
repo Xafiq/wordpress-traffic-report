@@ -1,0 +1,15 @@
+Observations:
+1. High CPU usage consistently at +90% for an extended period.
+2. RAM memory was saturated throughout the testing.
+
+Potential Issues:
+- Server Overloaded: The server experienced high CPU utilization and RAM saturation, indicating it may not be able to handle the increasing load efficiently without degrading performance or crashing due to excessive resource consumption.
+
+Solutions:
+1. Optimize Server Configuration: Review server settings to optimize configurations like Apache and PHP for better resource management.
+2. Load Balancing: If multiple instances are available, use a load balancer to distribute incoming traffic evenly across all servers.
+3. Implement Caching Mechanisms: Use caching techniques to reduce the number of requests reaching the application layer and alleviate database strain with in-memory or CDN solutions.
+4. Monitoring and Alerting System: Deploy a monitoring system to track server metrics such as CPU usage, RAM consumption, and network traffic. Set up alerts for potential resource bottlenecks.
+5. Scale Up Hardware Resources: If insufficient hardware capacity is detected, upgrade servers with more CPU cores and increased memory.
+
+By addressing these issues through optimization techniques, load balancing strategies, and monitoring solutions, you can improve server performance under high loads.

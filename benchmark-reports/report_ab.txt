@@ -1,0 +1,25 @@
+  GNU nano 8.2                         report_ab.txt                                  
+HTML transferred:       856080000 bytes
+Requests per second:    3015.81 [#/sec] (mean)
+Time per request:       331.586 [ms] (mean)
+Time per request:       0.332 [ms] (mean, across all concurrent requests)
+Transfer rate:          32322.76 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   18 101.6      8    2565
+Processing:    11  263 1705.4    132   26467
+Waiting:        1  252 1705.9    115   26465
+Total:         55  281 1711.1    147   26517
+
+Percentage of the requests served within a certain time (ms)
+  50%    147
+  66%    160
+  75%    173
+  80%    198
+  90%    235
+  95%    277
+  98%    441
+  99%   1213
+ 100%  26517 (longest request)
+
